@@ -6,8 +6,9 @@ apt install openjdk-17-jdk openjdk-17-jre -y
 
 ##Download the SonaType Nexus on Ubuntu using wget
 cd /opt 
-sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz   
-
+#sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz  
+#for me below link is working
+wget https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-3.29.2-02-unix.tar.gz  
 
 ##Extract the Nexus repository setup in /opt directory
 tar -zxvf latest-unix.tar.gz     
